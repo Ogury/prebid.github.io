@@ -13,8 +13,9 @@ dchain_supported: false
 media_types: banner
 safeframes_ok: false
 deals_supported: false
+fpd_supported: false
 pbjs: true
-pbs: false
+pbs: true
 prebid_member: false
 sidebarType: 1
 gpp_sids: tcfeu, usnat, usstate_all
