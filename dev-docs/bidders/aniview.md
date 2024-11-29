@@ -1,11 +1,12 @@
 ---
 layout: bidder
-title: ANIVIEW
-description: Prebid ANIVIEW Bidder Adapter
+title: Aniview
+description: Prebid Aniview Bidder Adapter
 pbjs: true
 biddercode: aniview
 media_types: banner, video
-gdpr_supported: true
+tcfeu_supported: true
+floors_supported: true
 usp_supported: true
 schain_supported: true
 safeframes_ok: true
@@ -27,8 +28,8 @@ For more information about [Aniview Ad Server](https://www.aniview.com/), please
 
 ### Test Parameters
 
-```
-videoAdUnit = [
+```javascript
+const videoAdUnit = [
 {
   code: 'video1',
   mediaTypes: {
